@@ -36,5 +36,10 @@ public class TestController {
 	public String imHappy() {
 		return null;
 	}
+	
+	@GetMapping("/checkVC")
+	public String checkVC() {
+		return "sucussfully Version Control Done";
+	}
 
 }
