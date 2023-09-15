@@ -31,5 +31,10 @@ public class TestController {
 		return result;
 		
 	}
+	
+	@GetMapping("/imHappy")	
+	public String imHappy() {
+		return null;
+	}
 
 }
